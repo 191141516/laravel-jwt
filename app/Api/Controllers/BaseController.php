@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Api\Controllers;
+
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
+use Dingo\Api\Routing\Helpers;
+
+class BaseController extends Controller
+{
+	use Helpers;
+
+
+}
