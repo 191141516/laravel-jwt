@@ -20,7 +20,7 @@ var browserSync = require('browser-sync');
 
 gulp.task('browerSync', function(){
     browserSync.init({
-        proxy: "jotbot.dev",    //apache或iis等代理地址
+        proxy: "jwt.dev",    //apache或nginx等代理地址
         notify: false,              //刷新是否提示
         open: true                 //是否自动打开页面
     });
